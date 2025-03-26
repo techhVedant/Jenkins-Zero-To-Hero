@@ -5,6 +5,12 @@ pipeline {
       args '--user root -v /var/run/docker.sock:/var/run/docker.sock' // mount Docker socket to access the host's Docker daemon
     }
   }
+
+  tools {
+    jdk 'JDK17'
+    maven 'Maven3.9.6'   // 🔥 Use Maven 3.9.6 (latest stable version)
+  }
+
   stages {
     stage('Checkout') {
       steps {
