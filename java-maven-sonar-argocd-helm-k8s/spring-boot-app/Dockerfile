@@ -1,4 +1,4 @@
-Use OpenJDK 17 JDK (Official Alpine image)
+#Use OpenJDK 17 JDK (Official Alpine image)
 FROM openjdk:17-jdk-alpine
 
 # Define JAVA_HOME explicitly
