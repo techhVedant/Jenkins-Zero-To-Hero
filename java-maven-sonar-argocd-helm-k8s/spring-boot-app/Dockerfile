@@ -1,5 +1,5 @@
-# Use JDK instead of JRE
-FROM adoptopenjdk/openjdk17:alpine-jdk   # ✅ Use JDK image
+Use OpenJDK 17 JDK (Official Alpine image)
+FROM openjdk:17-jdk-alpine
 
 # Define JAVA_HOME explicitly
 ENV JAVA_HOME=/opt/java/openjdk
